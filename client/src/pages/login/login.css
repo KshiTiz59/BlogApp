@@ -1,0 +1,64 @@
+.login{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5))
+    ,url("https://images.pexels.com/photos/904616/pexels-photo-904616.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+  background-position:center;
+    
+}
+.loginTitle{
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+.loginForm{
+margin-top: 20px;
+display: flex;
+flex-direction:column;
+}
+.loginForm >label{
+    margin: 10px 0;
+    color: white;
+    margin-left: 4px;
+    font-family: 'Varela Round',sans-serif;
+    font-weight: 100;
+}
+.loginInput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Varela Round',sans-serif;
+}
+.loginbutton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding:10px;
+    font-family: 'Varela Round',sans-serif;
+
+}
+.loginbutton:disabled{
+  cursor:not-allowed;
+  background-color:rgb(240, 180, 180) ;  
+}
+.signinButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: teal;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+color: white;
+border-radius: 10px;
+font-family: 'Varela Round',sans-serif;
+
+}
